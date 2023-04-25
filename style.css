@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body{
-     background:#CCCC;
+    font-family: 'Roboto', sans-serif;
 }
 #banner{
     width:100%;
 }
-h1,p{
+.principal{
+     background:#CCCC;
+     padding: 30px;
+}
+.titulo-principal{
+    padding-left: 20px;
+}
+.titulos-centralizados, p{
 
     text-align:center;
 }
@@ -20,5 +29,21 @@ h1,p{
 }
 
 .itens{
-    font-style: italic
+    font-style: italic;
+
+    
+}
+.beneficios{
+    background: #FFF;
+    padding: 20px;
+ }
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios{
+    width: 50%;
 }

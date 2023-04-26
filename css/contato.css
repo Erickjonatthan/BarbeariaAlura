@@ -42,6 +42,71 @@ nav a:hover {
     text-decoration: underline;
     transition: 0.5s;
 }
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.input-padrao{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+    color: #000;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: darkorange;
+    transition: 1s ;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 20px 0 40px;
+
+}
+thead{
+    background: rgb(59, 59, 59);
+    color: white;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid black;
+    padding: 9px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
 footer {
     text-align: center;
     background: url("/img/bg.jpg");

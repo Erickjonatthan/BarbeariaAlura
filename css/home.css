@@ -3,31 +3,77 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+header{
+    background: #BBB;
+    padding: 20px 0;
 
-#banner{
+
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color:#000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: rgb(243, 221, 99);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+main{
+    width: 940px;
+    margin: 40px auto;
+}
+.banner{
     width:100%;
 }
-.principal{
-     background:#CCCC;
-     padding: 30px;
-}
-.titulo-principal{
-    padding-left: 20px;
-}
-.titulos-centralizados, p{
 
+.titulo-principal{
     text-align:center;
+    font-size: 2em;
+    margin-bottom: 1em ; /* ou margin: 0 0 1em; */
+    clear: left ;
+}
+.principal p{
+     margin-bottom: 1em ;
+}
+.principal em{
+    font-style: italic;
+    
+}
+.principal strong{
+    font-weight: bold;
+
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
 #missao{
-
+    text-align: center;
     font-size:20px;
 }
-#missao em strong{
 
-    color:red;
-
-}
 
 .itens{
     font-style: italic;
@@ -38,7 +84,7 @@ body{
     background: #FFF;
     padding: 20px;
  }
-ul {
+ .lista-itens {
     display: inline-block;
     vertical-align: top;
     width: 20%;

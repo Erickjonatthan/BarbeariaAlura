@@ -55,6 +55,7 @@ nav a:hover{
     margin-bottom: 1em ; /* ou margin: 0 0 1em; */
     clear: left ;
 }
+
 .principal p{
      margin-bottom: 1em ;
 }
@@ -80,6 +81,9 @@ nav a:hover{
 
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE,#888);
+}
+.mapa-conteudo{
     width: 940px;
     margin: 0 auto;
 }
@@ -100,6 +104,9 @@ nav a:hover{
 .itens{
     line-height: 1.5;    
 }
+.itens::before{
+    content: "★";
+}
 .itens:first-child{
     font-weight: bold;
 }
@@ -112,6 +119,7 @@ nav a:hover{
 
 .imagembeneficios{
     width: 60%;
+    box-shadow: 10px 10px 10px;
 }
 .video{
      width:560px;

@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+   .caixa,.principal,.conteudo-beneficios,.mapa-conteudo,.video,.produtos, form{
+       width: auto;
+   }
+   h1{
+       text-align: center;
+   }
+   nav{
+       position: static;
+   }
+   .lista-itens,.imagembeneficios{
+    width: 100%;
+   }
+   .produtos li{
+       width: 80%;
+       margin: 1em 0 0 10%;
+       
+   }
+   form{
+       text-align: center;
+   }
+   .input-padrao{
+       display: inline-block;
+   }
+   table{
+       margin: 1.5em auto;
+   }
+
+}
